@@ -1,10 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react';
 
-export default class Question extends React.Component {
-  state = {
-    answer:""
-  }
-  render() {
+export default function Question() {
+
+    const [answer, setAnswer] = useState("");
+
     return (
         <section id="qns1">
         <h1>Question 1: Which island is Mount Faber, Singapore, located on?</h1>
@@ -24,5 +23,4 @@ export default class Question extends React.Component {
         </ul>
       </section>
     )
-  }
 }
