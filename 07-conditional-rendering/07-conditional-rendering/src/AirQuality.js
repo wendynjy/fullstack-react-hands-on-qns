@@ -4,13 +4,13 @@ export default function AirQuality(){
 
     const [psi, setPsi] = useState(0);
 
-    getAirQualityText = () => {
+    const getAirQualityText = () => {
         return "undefined";
       }
     
-      getAirQualityColor = () => {
+    const getAirQualityColor = () => {
     
-      }
+    }
     
 
     return (
