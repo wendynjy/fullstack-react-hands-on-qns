@@ -4,6 +4,6 @@ The `Movies` component stores an array of movies. Each movie has an `Edit` butto
 
 Your task is
 
-1. Finish the `beginEditMovie` such that when the __Edit button__ for a movie is pressed, it details will appear in the form.
+1. Finish the codes such that when the __Edit button__ for a movie is pressed, it details will appear in the form.
 
-2. Finish the `finishEditMovie` such that the changes to the movie's details will persist in the array.
+2. Finish the codes such that the changes to the movie's details will persist in the array.
